@@ -1,0 +1,4 @@
+curl http://localhost:3000 返回新的从定向
+curl http://localhost:3000/todos 根据返回的重定向链接获取到返回的内容
+curl http://localhost:3000/todos -v 可以查看http请求
+curl+请求信息 可以直接向服务器发起消息
